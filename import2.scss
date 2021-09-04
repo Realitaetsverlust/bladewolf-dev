@@ -1,0 +1,38 @@
+.e-btn {
+  background-color: $bg-button-primary;
+  border: 0;
+  color: $color-button-primary;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: .625rem 1.5rem;
+  outline: none;
+  user-select: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  @include media('<=medium') {
+    text-align: center;
+  }
+
+  /** active and hover states **/
+  &:hover {
+    background-color: $color-button-action;
+  }
+
+  &:active {
+    background-color: darken($color-button-action, 10%);
+  }
+
+  &.is--login {
+    background-color: $color-button-action;
+    /** active and hover states **/
+    &:hover {
+      background-color: $bg-button-primary;
+    }
+
+    &:active {
+      background-color: darken($bg-button-primary, 10%);
+    }
+  }
+}

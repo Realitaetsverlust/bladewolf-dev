@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e508eb2631f81925aa788b9dd2811354",
+    "packages": [
+        {
+            "name": "realitaetsverlust/bladewolf",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/bladewolf",
+                "reference": "094a17818b6a16807d18cc986ab5eb359ae5d3ff"
+            },
+            "require": {
+                "php": ">= 8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Realitaetsverlust\\Bladewolf\\": "./"
+                }
+            },
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Realitaetsverlust",
+                    "email": "realitaetsverlust@realitaetsverlust.rocks",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "SCSS transpiler written in PHP",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "realitaetsverlust/bladewolf": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

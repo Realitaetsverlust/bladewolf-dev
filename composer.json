@@ -1,0 +1,12 @@
+{
+  "repositories": {
+    "realitaetsverlust/bladewolf": {
+      "type": "path",
+      "url": "./packages/bladewolf"
+    }
+  },
+  "require": {
+    "realitaetsverlust/bladewolf": "dev-master",
+    "ext-yaml": "*"
+  }
+}
